@@ -1,7 +1,47 @@
 nav.navbar
   .container-fluid
     .navbar-header
-      button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-Navbar"
+      //button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-Navbar"
 
     .collapse.navbar-collapse#main-Navbar
-        ul.nav.navbar-right#origin 
+        ul.nav.navbar-nav.navbar-left#origin
+          li style='margin-left: 20px'
+            = link_to root_path, class: 'nav-button' do
+              span
+                | Parents
+            end
+          li
+            = link_to root_path, class: 'nav-button' do
+              span
+                | Student
+            end
+          li
+            = link_to root_path, class: 'nav-button' do
+              span
+                | Alumi
+            end
+          li
+            = link_to root_path, class: 'nav-button' do
+              span
+                | Faculty
+            end
+          li
+            = link_to root_path, class: 'nav-button' do
+              span
+                | NEWS
+            end
+          li
+            = link_to root_path, class: 'nav-button' do
+              span
+                | EVENTS
+            end
+          li
+            = link_to root_path, class: 'nav-button' do
+              span
+                | CONTACT US
+            end
+
+        ul.nav.navbar-nav.navbar-right#righty
+          li
+            span.glyphicon.glyphicon-search
+            input#search-container type='text' name='search' placeholder='SEARCH'
