@@ -12,7 +12,7 @@ html
     .body-innerwrapper
       = render 'layouts/header'
 
-      - if content_for?(:content) ? yield(:content) : yield
+      = yield
 
 
       = render "layouts/footer"
