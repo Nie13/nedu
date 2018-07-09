@@ -9,17 +9,14 @@
         img src=asset_path("11.jpg") alt='11'
         .carousel-caption
           h3 A change agent of international education
-          span this is a paragraph of good content
       .item
         img src=asset_path("13.jpg") alt='13'
         .carousel-caption
-          h3 Cutting Edge EDU
-          span this is the contant for explanation of education
+          h3 Cutting Edge education of Overseas
       .item
         img src=asset_path("british_soldier_camouflage.jpg") alt='brt'
         .carousel-caption
-          h3 British Soldier
-          span this is the subtitle for image of british soldier
+          h3 British Soldier title number 2
     a.left.carousel-control href='#newsCarousel' data-slide="prev"
       span.glyphicon.glyphicon-chevron-left
       span.sr-only
@@ -28,3 +25,20 @@
       span.glyphicon.glyphicon-chevron-right
       span.sr-only
         | Next
+
+.home-page2
+  .blue-background
+    h2.right Explore OUEF.
+
+    .row
+      .detail-container
+        .top-part
+          h3 OUEF
+          hr
+          h4 Overseas United Education Foundation
+        .learn
+          hr
+          = link_to root_path, class: 'learn-more' do
+            span LEARN MORE &nbsp&nbsp
+            span.glyphicon.glyphicon-arrow-right
+          end
