@@ -21,6 +21,8 @@ gem 'mysql2', '~> 0.3.18'
 gem 'jquery-ui-rails'
 gem 'jquery-infinite-pages'
 
+gem 'simple_form', '~> 3.2'
+
 #gem 'puma', '2.11.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
