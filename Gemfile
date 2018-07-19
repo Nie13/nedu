@@ -18,7 +18,6 @@ gem "bootstrap"
 gem 'slim-rails'
 gem 'font-awesome-rails'
 gem 'mysql2', '~> 0.3.18'
-gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'jquery-infinite-pages'
 
@@ -36,6 +35,12 @@ gem 'nokogiri'
 gem 'ffi', '1.9.18'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+
+#active admin for admin
+gem 'activeadmin'
+
+gem 'devise'
+
 
 # Use Unicorn as the app server
 # gem 'unicorn'
