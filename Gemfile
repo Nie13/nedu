@@ -43,6 +43,8 @@ gem 'activeadmin'
 
 gem 'devise'
 
+gem 'ckeditor'
+
 
 # Use Unicorn as the app server
 # gem 'unicorn'
